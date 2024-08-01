@@ -33,7 +33,7 @@ const Earth = () => {
   return (
     <div className='w-full h-screen absolute overflow-hidden'>
   {renderElement(
-    <div className='absolute below-md:inset-0'>
+    <div className='absolute object-cover inset-0'>
       <img src={svgs5.earth} className='w-full h-full object-cover' alt="background" />
     </div>,
         { opacity: 0 },

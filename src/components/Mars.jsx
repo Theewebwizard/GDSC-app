@@ -29,7 +29,7 @@ const Mars = () => {
       {isInView && (
         <>
           <motion.div
-            className='absolute below-md:inset-0 z-[-1]'
+            className='absolute inset-0 z-[-1]'
             initial='initial'
             animate='animate'
             {...animations('left', 0.5)}

@@ -30,12 +30,12 @@ const Uranus = () => {
       {isInView && (
         <>
           <motion.div
-            className="absolute below-md:inset-0"
+            className="absolute inset-0"
             initial="initial"
             animate="animate"
             {...animations('left', 0.5)}
           >
-            <img src={svgs11.uranus} className="w-full h-full below-md:object-cover" alt="" />
+            <img src={svgs11.uranus} className="w-full h-full object-cover" alt="" />
           </motion.div>
 
           <motion.div

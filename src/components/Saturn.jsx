@@ -30,12 +30,12 @@ const Saturn = () => {
       {isInView && (
         <>
           <motion.div
-            className='absolute z-0 overflow-hidden below-md:inset-0'
+            className='absolute z-0 overflow-hidden inset-0'
             initial="initial"
             animate="animate"
             {...animations('left', 0.5)}
           >
-            <img src={svgs13.saturn} className='w-full h-full below-md:object-cover' alt="" />
+            <img src={svgs13.saturn} className='w-full h-full object-cover' alt="" />
           </motion.div>
 
           <motion.div
