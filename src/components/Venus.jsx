@@ -98,7 +98,7 @@ const Venus = () => {
           </motion.div>
 
           <motion.div
-            className="absolute below-md:w-[4rem] below-md:top-[11.3rem] top-[20.59rem] left-[1rem]"
+            className="absolute below-md:w-[4rem] below-md:top-[21.3rem] top-[20.59rem] left-[1rem]"
             initial="initial"
             animate="animate"
             {...animations('left', 0.8)}
