@@ -16,7 +16,9 @@ export default {
         'fort':{'min':'1440px'},
         'smallest': { 'min': '320px', 'max': '374px'},
         'latest':{'min': '1480px'},
-        'largelatest':{'min': '1551px'}
+        'largelatest':{'min': '1551px'},
+        'phonelatest':{'min': '1551px'},
+        'height-800-851': {'raw': '(min-height: 800px) and (max-height: 858px)'},
       },
     },
   },
