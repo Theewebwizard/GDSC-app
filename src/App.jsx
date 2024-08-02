@@ -56,7 +56,7 @@ const App = () => {
         <Neptune />
         <Footer/>
         
-        <div className='absolute z-90 text-white below-md:left-[0rem] left-[3rem] pl-[9rem] fort:top-[482rem] below-md:top-[560rem] above-md:top-[513rem] latest:top-[547rem] top-[463rem] '>
+        <div className='absolute z-90 text-white below-md:left-[0rem] left-[3rem] pl-[9rem] fort:top-[482rem] below-md:top-[560rem] above-md:top-[513rem] latest:top-[637rem] top-[463rem] '>
         <Navbar/>
         </div>
       </div>
