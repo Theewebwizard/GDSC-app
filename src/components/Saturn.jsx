@@ -74,7 +74,7 @@ const Saturn = () => {
           </motion.div>
 
           <motion.div
-            className='w-[5rem] below-md:right-[18rem] latest:right-[32rem] below-md:top-[41rem] absolute right-[28rem] top-[18rem]'
+            className='w-[5rem] largelatest:right-[36rem] below-md:right-[18rem] latest:right-[32rem] below-md:top-[41rem] absolute right-[28rem] top-[18rem]'
             initial="initial"
             animate="animate"
             {...animations('down', 1.6)}
@@ -83,7 +83,7 @@ const Saturn = () => {
           </motion.div>
 
           <motion.div
-            className='w-[3rem] below-md:right-[19rem] latest:right-[32rem] below-md:top-[51rem] absolute right-[28rem] top-[29.5rem]'
+            className='w-[3rem] below-md:right-[19rem] largelatest:right-[37rem] latest:right-[32rem] below-md:top-[51rem] absolute right-[28rem] top-[29.5rem]'
             initial="initial"
             animate="animate"
             {...animations('down', 1.8)}
