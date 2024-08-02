@@ -14,7 +14,8 @@ export default {
         'below-md': { 'max': '767px' }, // Custom breakpoint for <768px
         'above-md': {'min': '1000px', 'max': '1200px'},
         'fort':{'min':'1440px'},
-        'smallest': { 'min': '320px', 'max': '374px'}
+        'smallest': { 'min': '320px', 'max': '374px'},
+        'latest':{'min': '1480px'}
       },
     },
   },
